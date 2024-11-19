@@ -8,10 +8,9 @@
 - components:
     - shopping cart (modal/non modal)? 
     - card component
-    - grid compoennt showing catalog
+    - grid component showing catalog
     - success modal screen
-    -
-    -
+    - button component
 - deploying on aws steps documented 
 
 
