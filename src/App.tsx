@@ -14,7 +14,7 @@ import CheckoutPage from './pages/CheckoutPage';
 import CompletePage from './pages/CompletePage';
 import NotFoundPage from './pages/NotFoundPage';
 
-function App({ className = '' }) {
+function App() {
   const [stripePromise, setStripePromise] = useState(null);
 
   useEffect(() => {

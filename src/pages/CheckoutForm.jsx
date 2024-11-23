@@ -6,7 +6,6 @@ import {
   PaymentElement,
   useStripe,
   useElements,
-  CardElement,
 } from "@stripe/react-stripe-js";
 import { Button } from "../components/ui/Button";
 
