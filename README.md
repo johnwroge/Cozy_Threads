@@ -39,12 +39,6 @@ cd Cozy_Threads
 npm install
 ```
 
-3. Create a `.env` file in the server directory:
-```env
-STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
-```
-
 ### Backend Setup
 1. Navigate to the server directory:
 ```bash
