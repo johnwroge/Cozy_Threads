@@ -31,6 +31,16 @@ function App({ className = '' }) {
         <Layout>
           <Routes>
             <Route path="/" element={<ProductsPage />} />
+            <Route
+              path="/checkout"
+              element={<CheckoutPage stripePromise={stripePromise} />}
+            />
+            <Route
+              path="/complete"
+              element={<CompletePage stripePromise={stripePromise} />}
+            />
+            <Route path="/404" element={<NotFoundPage />} />
+            <Route path="*" element={<Navigate to="/404" replace />} />
           </Routes>
         </Layout>
       </Router>
