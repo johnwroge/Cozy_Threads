@@ -1,4 +1,4 @@
-# Cozy_Threads
+# Cozy Threads
 
 ## Requirements
 
@@ -18,5 +18,3 @@ E-commerce app
 - Design and build a functional e-commerce application
 - Understand and integrate with Stripe's Payments API
 - Communicate your technical decisions and trade-offs in a written format
-
-
