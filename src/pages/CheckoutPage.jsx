@@ -6,8 +6,6 @@ import { Navigate } from 'react-router-dom';
 import CheckoutForm from './CheckoutForm';
 import OrderSummary from '../components/OrderSummary';
 
-const BACKEND_URL = `${window.location.origin}`;
-
 const CheckoutPage = ({ stripePromise }) => {
   const [clientSecret, setClientSecret] = useState('');
   const [error, setError] = useState(null);
