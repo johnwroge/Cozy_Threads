@@ -9,6 +9,10 @@ import { loadStripe } from '@stripe/stripe-js';
 import Layout from './components/Layout';
 import { Provider } from 'react-redux';
 import { store } from './store';
+import ProductsPage from './pages/ProductsPage';
+import CheckoutPage from './pages/CheckoutPage';
+import CompletePage from './pages/CompletePage';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App({ className = '' }) {
   const [stripePromise, setStripePromise] = useState(null);
@@ -25,10 +29,9 @@ function App({ className = '' }) {
     <Provider store={store}>
       <Router>
         <Layout>
-        <Routes>
-            {/* <Route path="/" element={} /> */}
+          <Routes>
+            <Route path="/" element={<ProductsPage />} />
           </Routes>
-
         </Layout>
       </Router>
     </Provider>
