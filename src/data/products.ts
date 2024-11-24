@@ -122,8 +122,8 @@ export const products: Product[] = [
   },
   {
     id: 14,
-    title: 'Trout Bag',
-    description: 'Premium trout cloth bag',
+    title: 'BT Graphic Tote Bag',
+    description: 'Natural mountain pine cloth bag',
     price: 129.99,
     image: troutBag,
   },
