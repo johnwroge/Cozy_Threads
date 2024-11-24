@@ -20,8 +20,8 @@ import womensStripedShirt from '../assets/womens_striped_shirt.png';
 export const products: Product[] = [
   {
     id: 0,
-    title: 'Classic Leather Belt',
-    description: 'Genuine leather belt with classic buckle',
+    title: 'Classic Faux - Leather Belt',
+    description: 'Faux leather belt with classic buckle',
     price: 39.99,
     image: belt,
   },
@@ -32,16 +32,10 @@ export const products: Product[] = [
     price: 64.99,
     image: blueStripeSweater,
   },
-  {
-    id: 2,
-    title: 'Double-Layer Leather Belt',
-    description: 'Sturdy, double-layered belt crafted from repurposed leather',
-    price: 49.99,
-    image: belt2,
-  },
+ 
 
   {
-    id: 3,
+    id: 2,
     title: 'Classic Cap',
     description: 'Breathable winter cap.',
     price: 19.99,
@@ -49,18 +43,25 @@ export const products: Product[] = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: 'Khaki Chino Pants',
     description: 'Classic khaki pants',
     price: 59.99,
     image: khakiChino,
   },
   {
-    id: 5,
+    id: 4,
     title: 'Brushed Cashmere Beanie',
     description: 'Soft beanie for a cozy winter',
     price: 79.99,
     image: cashmereCap,
+  },
+  {
+    id: 5,
+    title: 'Double-Layer Leather Belt',
+    description: 'Sturdy, double-layered belt crafted from repurposed leather',
+    price: 49.99,
+    image: belt2,
   },
   {
     id: 6,
