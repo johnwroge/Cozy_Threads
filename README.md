@@ -85,6 +85,11 @@ npm run build
 
 The build output will be in the `dist` directory.
 
+```bash
+cd server
+node server.js
+```
+
 
 The dist folder will be served by the Express server at  `http://localhost:4242/`
 
