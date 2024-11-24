@@ -9,7 +9,6 @@ import cashmereCap from '../assets/cashmere_cap.png';
 import checkerFlannel from '../assets/checker_flannel.png';
 import kaleidoscopeDress from '../assets/kaleidiscope_dress.png';
 import khakiChino from '../assets/khaki_chino.png';
-import raisinShirt from '../assets/raisin_shirt.png';
 import stripedScarf from '../assets/striped_scarf.png';
 import troutBag from '../assets/trout_bag.png';
 import watch from '../assets/watch.jpeg';
