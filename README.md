@@ -1,5 +1,3 @@
-# Cozy Threads
-
 # Cozy Threads 🌱
 
 A sustainable fashion e-commerce platform built with React, TypeScript, Express, and Stripe integration.
