@@ -1,135 +1,126 @@
 import { Product } from "../types";
 
-import photo1 from "../assets/1.png";
-import photo2 from "../assets/2.png";
-import photo3 from "../assets/3.png";
-import photo4 from "../assets/4.png";
-import photo5 from "../assets/5.png";
-import photo6 from "../assets/6.png";
-import photo7 from "../assets/7.png";
-import photo8 from "../assets/8.png";
-import photo9 from "../assets/9.png";
-import photo10 from "../assets/10.png";
-import photo11 from "../assets/11.png";
-import photo12 from "../assets/12.png";
+import handBag from "../assets/hand_bag.jpeg";
+import menJean2 from "../assets/men_jean_2.jpeg";
+import mensJean from "../assets/mens_jean.jpeg";
+import mensKhaki from "../assets/mens_khaki.jpeg";
+import mensShirt2 from "../assets/mens_shirt2.jpeg";
+import mensShirt3 from "../assets/mens_shirt_3.jpeg";
+import mensShirt4 from "../assets/mens_shirt_4.jpeg";
+import mensShirt5 from "../assets/mens_shirt_5.jpeg";
+import sadSweaterMan from "../assets/sad_sweater_man.jpeg";
+import womens3 from "../assets/womens_3.jpeg";
+import womensKhaki from "../assets/womens_khaki.jpeg";
+import womensRed from "../assets/womens_red.jpeg";
+import womensSweater from "../assets/womens_sweater.jpeg";
+import womensSweater1 from "../assets/womens_sweater_1.jpeg";
+import womensWhite from "../assets/womens_white.jpeg";
 
 export const products: Product[] = [
   {
     id: 1,
-    title: "Vintage Leather Jacket",
-    description:
-      "Hand-crafted genuine leather jacket with distressed finish and premium metal hardware",
-    price: 299.99,
-    image: photo1,
+    title: "Sustainable Repurposed Handbag",
+    description: "Ethically sourced leather handbag with spacious interior and modern style.",
+    price: 159.99,
+    image: handBag,
   },
   {
     id: 2,
-    title: "Classic White Sneakers",
-    description:
-      "Minimalist design meets maximum comfort with our signature cloud cushioning",
-    price: 129.99,
-    image: photo2,
+    title: "Premium Dark Wash Jeans",
+    description: "Stylish, sustainably produced dark wash denim with a perfect fit.",
+    price: 119.99,
+    image: menJean2,
   },
   {
     id: 3,
-    title: "Merino Wool Cardigan",
-    description:
-      "Luxuriously soft merino wool cardigan with pearl buttons and ribbed detailing",
-    price: 159.99,
-    image: photo3,
+    title: "Classic Fit Denim",
+    description: "Comfortable, eco-friendly jeans made with sustainable materials.",
+    price: 99.99,
+    image: mensJean,
   },
   {
     id: 4,
-    title: "High-Rise Slim Jeans",
-    description:
-      "Premium stretch denim with a flattering high-rise cut and ankle-length finish",
+    title: "Men's Khaki Chinos",
+    description: "Sustainable cotton khakis with a modern, flattering fit.",
     price: 89.99,
-    image: photo4,
+    image: mensKhaki,
   },
   {
     id: 5,
-    title: "Silk Wrap Dress",
-    description:
-      "Elegant silk wrap dress with adjustable tie and flowing midi length",
-    price: 219.99,
-    image: photo5,
+    title: "Casual Button-Down Shirt",
+    description: "Relaxed fit shirt made from organic, sustainable materials.",
+    price: 79.99,
+    image: mensShirt2,
   },
   {
     id: 6,
-    title: "Cashmere Beanie",
-    description: "Ultra-soft pure cashmere beanie in a timeless ribbed design",
-    price: 79.99,
-    image: photo6,
+    title: "Relaxed Cotton Dress Shirt",
+    description: "Premium, formal cotton shirt crafted from sustainable materials.",
+    price: 94.99,
+    image: mensShirt3,
   },
   {
     id: 7,
-    title: "Canvas Backpack",
-    description:
-      "Water-resistant canvas backpack with leather trim and laptop compartment",
-    price: 149.99,
-    image: photo2,
+    title: "Smart Casual Shirt",
+    description: "Versatile shirt ideal for both work and weekends.",
+    price: 84.99,
+    image: mensShirt4,
   },
   {
     id: 8,
-    title: "Linen Button-Down",
-    description:
-      "Breathable pure linen shirt with mother-of-pearl buttons and relaxed fit",
-    price: 119.99,
-    image: photo7,
+    title: "Eco-Friendly Oxford Shirt",
+    description: "Classic oxford shirt made from recycled materials.",
+    price: 89.99,
+    image: mensShirt5,
   },
   {
     id: 9,
-    title: "Oversized Blazer",
-    description:
-      "Tailored oversized blazer in Italian wool with subtle shoulder padding",
-    price: 249.99,
-    image: photo2,
+    title: "Cozy Wool Sweater",
+    description: "Soft and warm sustainable wool blend sweater for maximum comfort.",
+    price: 129.99,
+    image: sadSweaterMan,
   },
   {
     id: 10,
-    title: "Cropped Wide-Leg Pants",
-    description: "High-waisted wide-leg trousers in sustainable tencel fabric",
-    price: 139.99,
-    image: photo8,
+    title: "Women's Casual Blouse",
+    description: "Flowing blouse made from eco-friendly, sustainable fabrics.",
+    price: 79.99,
+    image: womens3,
   },
   {
     id: 11,
-    title: "Chunky Knit Scarf",
-    description: "Extra-long chunky knit scarf in premium merino wool blend",
-    price: 69.99,
-    image: photo9,
+    title: "Khaki Cargo Pants",
+    description: "Sustainable cotton khakis designed with a fit for comfort",
+    price: 89.99,
+    image: womensKhaki,
   },
   {
     id: 12,
-    title: "Crossbody Bag",
-    description:
-      "Compact leather crossbody with adjustable strap and gold hardware",
-    price: 179.99,
-    image: photo10,
+    title: "Light Maroon T-shirt",
+    description: "Stylish, casual top crafted from a blend of cotton and recycled materials.",
+    price: 89.99,
+    image: womensRed,
   },
   {
     id: 13,
-    title: "Utility Jumpsuit",
-    description:
-      "Cotton-blend utility jumpsuit with multiple pockets and cinched waist",
-    price: 169.99,
-    image: photo11,
+    title: "Cozy Winter Sweater",
+    description: "Warm winter sweater made from a sustainable wool blend.",
+    price: 119.99,
+    image: womensSweater,
   },
   {
     id: 14,
-    title: "Platform Chelsea Boots",
-    description:
-      "Leather chelsea boots with chunky rubber sole and elastic panels",
-    price: 229.99,
-    image: photo12,
+    title: "Classic Fall Knit Sweater",
+    description: "Timeless knit sweater in red and white, made with eco-friendly yarn.",
+    price: 109.99,
+    image: womensSweater1,
   },
   {
     id: 15,
-    title: "Metallic Mini Dress",
-    description:
-      "Shimmering metallic mini dress with ruched detailing and open back",
-    price: 189.99,
-    image: photo10,
+    title: "White Summer Blouse",
+    description: "Lightweight, classic blouse for a fresh summer look.",
+    price: 129.99,
+    image: womensWhite,
   },
 ] as const;
 
