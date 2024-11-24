@@ -117,9 +117,9 @@ E-commerce app
 - [x] Shopping Cart feature allows customers to add products to a shopping cart, and then view the items they've selected
 - [x] Checkout capability uses Stripe Payment Element to collect payment information and complete transaction
 - [x] After transaction is complete, we should be able to see the result to the customer. 
-- [ ] PDF of less than 700 word write-up containing architecture and design, key decisions including trade offs, and areas of improvement if given more time 
+- [x] PDF of less than 700 word write-up containing architecture and design, key decisions including trade offs, and areas of improvement if given more time 
 - [x] Host application through a cloud provider
-- [ ] Zipped file, or link to source code
+- [x] Zipped file, or link to source code
 
 
 
