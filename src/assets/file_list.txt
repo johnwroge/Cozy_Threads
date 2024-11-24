@@ -1,0 +1,17 @@
+belt.png
+belt2.png
+black_belt.png
+blue_stripe_sweater.png
+cap.png
+cashmere_cap.png
+checker_flannel.png
+file_list.txt
+kaleidiscope_dress.png
+khaki_chino.png
+raisin_shirt.png
+striped_scarf.png
+trout_bag.png
+watch.jpeg
+winter_coat.png
+winter_hat.png
+womens_striped_shirt.png
