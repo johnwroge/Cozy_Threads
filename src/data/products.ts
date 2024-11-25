@@ -15,6 +15,8 @@ import mensFleece from '../assets/mens_fleece.png';
 import toteBag from '../assets/white_tote_bag.png';
 import darkCoat from '../assets/coat_dark.png';
 import repurposedShirt from '../assets/white_shirt_repurposed.png';
+import vintagePurse from '../assets/purse.png';
+
 
 export const products = [
   {
@@ -135,6 +137,13 @@ export const products = [
     description: 'Sustainably repurposed white cotton shirt',
     price: 59.99,
     image: repurposedShirt,
+  },
+  {
+    id: 17,
+    title: 'Vintage Purse',
+    description: 'Sustainably repurposed vintage purse',
+    price: 89.99,
+    image: vintagePurse,
   },
 ] as const;
 

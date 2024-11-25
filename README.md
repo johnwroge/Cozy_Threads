@@ -111,6 +111,11 @@ STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Images
+
+Images were acquired from Pixabay and Pexels. 
+
 ## Requirements
 
 E-commerce app
