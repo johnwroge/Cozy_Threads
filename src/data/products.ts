@@ -63,8 +63,8 @@ export const products = [
   },
   {
     id: 6,
-    title: 'Forest Green Shirt',
-    description: 'Casual forest green button-up shirt',
+    title: 'Earth Shirt',
+    description: 'Casual Earth logo T-shirt',
     price: 45.99,
     image: forestShirt,
   },
