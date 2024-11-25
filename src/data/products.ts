@@ -21,8 +21,8 @@ import vintagePurse from '../assets/purse.png';
 export const products = [
   {
     id: 0,
-    title: 'White Dress Shirt',
-    description: 'Classic white cotton dress shirt',
+    title: 'White Cotton T-Shirt',
+    description: 'Classic white cotton  T-shirt',
     price: 49.99,
     image: whiteshirt,
   },
