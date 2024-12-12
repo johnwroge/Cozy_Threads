@@ -112,22 +112,7 @@ STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Images
 
-Images were acquired from Pixabay and Pexels. 
-
-## Requirements
-
-E-commerce app
-
-- [x] Product Catalog-Display of products
-- [x] Each product contains image, title, description, price
-- [x] Shopping Cart feature allows customers to add products to a shopping cart, and then view the items they've selected
-- [x] Checkout capability uses Stripe Payment Element to collect payment information and complete transaction
-- [x] After transaction is complete, we should be able to see the result to the customer. 
-- [x] PDF of less than 700 word write-up containing architecture and design, key decisions including trade offs, and areas of improvement if given more time 
-- [x] Host application through a cloud provider
-- [x] Zipped file, or link to source code
 
 
 
